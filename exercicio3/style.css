@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
 main{
   display: flex;
   gap: 20px;
