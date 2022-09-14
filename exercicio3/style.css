@@ -1,15 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background-color: black;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-main{
+main {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -20,7 +21,7 @@ main{
   align-items: center;
 }
 
-section{
+section {
   height: 100px;
   background-color: steelblue;
   color: white;
@@ -30,25 +31,25 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
+#section-1 {
   order: 2;
 }
 
-#section-2{
+#section-2 {
   order: 3;
   flex-basis: 240px;
 }
 
-#section-3{
+#section-3 {
   order: 4;
   flex-basis: 360px;
 }
 
-#section-4{
+#section-4 {
   order: 5;
   flex-basis: 200px;
 }
 
-#section-5{
+#section-5 {
   order: 1;
 }
